@@ -17,6 +17,4 @@ EXPOSE 80
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
 
-LABEL maintainer="Priyanka Sharma <204priyankasharma@gmail.com>"
-LABEL description="This example Dockerfile installs nodejs."
 
